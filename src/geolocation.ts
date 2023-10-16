@@ -169,7 +169,7 @@ export class VeirGeoLocation extends LitElement {
               </div>
               ${this.weatherData.properties.timeseries[0].data.instant.details
                 .air_temperature}
-              °C
+              °Farenheit
               <sl-icon
                 style="font-size: 5rem;"
                 name="${this.weatherToSlIcon(
